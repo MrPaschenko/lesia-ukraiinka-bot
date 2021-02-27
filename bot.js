@@ -1,7 +1,6 @@
 'use strict';
 
 require('dotenv').config();
-const https = require('https');
 const { Telegraf } = require('telegraf');
 
 const bot = new Telegraf(process.env.token);
